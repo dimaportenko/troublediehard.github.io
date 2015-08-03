@@ -386,3 +386,7 @@ input:focus, textarea:focus {
 .abilities {
     height: 80px;
 }
+
+.goals {
+    height: 80px;
+}
