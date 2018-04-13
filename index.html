@@ -1,239 +1,73 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Dmytro Portenko - CV</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
-  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
-  <link rel="stylesheet" href="css/progressbar.css" type="text/css" />
-  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Magento React Native</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66129410-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-66129410-2');
+    </script>
 </head>
-
 <body>
-    <div id="container">
-<!--
-      <div id="header">
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-
-          <li><a href="#">Contact</a></li>
-        </ul><a href="#" class="social_contact">facebook</a> <a href="#" class=
-        "social_contact">twitter</a>
-      </div>
--->
-
-      <div class="section sectiontop">
-        <img src="img/ava.jpg" id="profilepicture" width="110" height="110"
-        alt="profile_picture" />
-
-        <h1>Портенко Дмитрий</h1>
-
-        <h2>Разработчик ПО</h2>
-        
-        <h3 class="birth">29/12/1988</h3>
-
-        <ul>
-          <li><span>E-mail:</span>troublesohard@gmail.com</li>                    
-          <li><span>Phone:</span> +38 067 751 4712</li>
-          <li><span>Skype:</span> troublesohard</li>        
-          <li><span>Linkedin:</span> <a href="https://ie.linkedin.com/pub/dmitry-portenko/4a/ab8/712">linkedin.com/dmitry-portenko</a></li>         
-          <li><span>vk:</span> <a href="http://vk.com/id7141732">vk.com/id7141732</a></li>
-
-        </ul>
-      </div>
-
-      <div class="section education">
-        <div class="left">
-          <h3>Образование</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
         </div>
+        <div class="col-sm-6">
+            <h1>Mangento 2 with React Native</h1>
+            <img class="title-image" src="img/rn_magento.jpg">
+            <p>I'm developing Magento 2 open source mobile application with React Native technology. You can find it <a href="https://github.com/troublediehard/magento-react-native">here</a></p>
+            <article class="markdown-body entry-content" itemprop="text">
+                <h3>Setup</h3>
 
-        <div class="right">
-          <div class="row selection_education">
-            <h4>ХНУРЭ</h4>
-
-            <h5>Информационная безопасность</h5>
-
-            <p>Магистр по специальности "Защита информации с ограниченным доступом и автоматизацией ее обработки".</p><a href="#">2006-2011</a>
-          </div>
+                <p><strong>Magento Admin</strong></p>
+                <ul>
+                    <li>System &gt; Intergrations &gt; Add New Intergration</li>
+                    <li>Fill Name filed and password</li>
+                    <li>API &gt; Resource Access select all (in production you can select only resources you really need)</li>
+                    <li>Save</li>
+                    <li>Acitvate your Integration</li>
+                </ul>
+                <p><strong>React Native Project setup</strong></p>
+                <ul>
+                    <li>Download project <a href="https://github.com/troublediehard/magento-react-native/archive/master.zip">magento-react-native.zip</a></li>
+                    <li>Go to project directory</li>
+                    <li>Run npm install</li>
+                    <li>copy src/config/magento-sample.js to src/config/magento.js</li>
+                    <li>set Magento base url to url param in magento.js</li>
+                    <li>set Access Token from Integration you created to access_token param in magento.js</li>
+                    <li>react-native run-ios (for iOS) and react-native run-android (for Android)</li>
+                </ul>
+                <h3>Demo</h3>
+                <p><img src="https://github.com/troublediehard/magento-react-native/raw/master/docs/gifs/demo.gif" alt="Demo" style="max-width:100%;"></p>
+                <h3>Contacts</h3>
+                <p><a href="mailto:troublesohard@gmail.com">troublesohard@gmail.com</a></p>
+                <p><a href="https://www.upwork.com/o/profiles/users/_%7E019a1afcd3f56e9469/" rel="nofollow">upwork</a></p>
+                <p><a href="https://www.linkedin.com/in/dmitry-portenko-712ab84a/" rel="nofollow">linkedin</a></p>
+            </article>
         </div>
-      </div>
-
-      <div class="section lang">
-        <div class="left">
-          <h3>Языки</h3>
+        <div class="col-sm-3">
         </div>
-
-        <div class="right">
-<!--          <div class="row selection_education">-->
-            <p class="label first">Русский/Украинский</p>
-            <p>Родные.</p>
-<!--          </div>-->
-       
-            <p class="label">Английский</p>
-            <p>Выше среднего. Технические вопросы (литература, гугл, проф ресурсы) предпочитаю на английском. Полтора года жил в Дублине. Свободно говорю и пишу (в грамматике не силен).</p>
-        </div>
-      </div>
-
-      <div class="section personal">
-        <div class="left">
-          <h3>Опыт работы</h3>
-        </div>
-
-        <div class="right">
-            <p>Харьков <span class="bold">Injoit Ltd</span> (ныне <a href="http://quickblox.com/about/">QuickBlox</a>) с 2010 по 2013. 
-Работал Objective-C разработчиком на аутсорс для <a href="http://www.3d4medical.com/">3D4Medical</a>.  В 2013 перешел работать непосредственно в <a href="http://www.3d4medical.com/">3D4Medical</a>, работал полтора года в главном офисе в Дублине. В 2014 вернулся в Харьков продолжил работу удаленно до апреля 2015. </p>
-        </div>
-      </div>      
-
-      <div class="section gallery">
-        <div class="left">
-          <h3>Проекты</h3>
-
-<!--          <p>For me the photography is not just a hobby, this is a passion.</p>-->
-        </div>
-
-        <div class="right gallery">
-          <p class="label first">Проект Nova Series для OS X</p>
-          <a href="https://itunes.apple.com/us/app/skeletal-system-pro-iii/id473649984?mt=12"><img width="90" height="90" alt="Skeletal System Pro III" src-swap-high-dpi="http://a1.mzstatic.com/us/r30/Purple3/v4/a0/ee/d3/a0eed3ec-9f18-d693-330a-38d47f12c9a9/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a2.mzstatic.com/us/r30/Purple3/v4/a0/ee/d3/a0eed3ec-9f18-d693-330a-38d47f12c9a9/icon256.png" class="artwork" src="http://a2.mzstatic.com/us/r30/Purple3/v4/a0/ee/d3/a0eed3ec-9f18-d693-330a-38d47f12c9a9/icon256.png"></a>
-          <a href="https://itunes.apple.com/us/app/muscle-system-pro-iii/id473657806?mt=12"><img width="90" height="90" alt="Muscle System Pro III" src-swap-high-dpi="http://a1.mzstatic.com/us/r30/Purple1/v4/c0/e9/29/c0e9291a-b178-34c2-b3a8-3ea30e3fa426/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a4.mzstatic.com/us/r30/Purple1/v4/c0/e9/29/c0e9291a-b178-34c2-b3a8-3ea30e3fa426/icon256.png" class="artwork" src="http://a4.mzstatic.com/us/r30/Purple1/v4/c0/e9/29/c0e9291a-b178-34c2-b3a8-3ea30e3fa426/icon256.png"></a>
-          <a href="https://itunes.apple.com/us/app/heart-pro-iii/id473633158?mt=12"><img width="90" height="90" alt="Heart Pro III" src-swap-high-dpi="http://a1.mzstatic.com/us/r30/Purple5/v4/4c/9a/81/4c9a81c1-39d8-1b96-c5d9-4d646313d849/icon256-2x.png" src-load-auto-after-dom-load="" src-swap="http://a3.mzstatic.com/us/r30/Purple5/v4/4c/9a/81/4c9a81c1-39d8-1b96-c5d9-4d646313d849/icon256.png" class="artwork" src="http://a3.mzstatic.com/us/r30/Purple5/v4/4c/9a/81/4c9a81c1-39d8-1b96-c5d9-4d646313d849/icon256.png"></a>
-          <a href="https://itunes.apple.com/us/app/ankle-foot-pro-iii/id507175843?mt=12"><img width="90" height="90" alt="Ankle &amp; Foot Pro III" src-swap-high-dpi="http://a2.mzstatic.com/us/r30/Purple3/v4/08/b8/03/08b8032c-9185-49f2-93d6-6e6a181b8a1e/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a5.mzstatic.com/us/r30/Purple3/v4/08/b8/03/08b8032c-9185-49f2-93d6-6e6a181b8a1e/icon256.png" class="artwork" src="http://a5.mzstatic.com/us/r30/Purple3/v4/08/b8/03/08b8032c-9185-49f2-93d6-6e6a181b8a1e/icon256.png"></a>
-          <a href="https://itunes.apple.com/us/app/elbow-pro-iii/id520185174?mt=12"><img width="90" height="90" alt="Elbow Pro III" src-swap-high-dpi="http://a3.mzstatic.com/us/r30/Purple3/v4/55/58/3a/55583acd-3c91-c04b-eeed-9686c508b5e3/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a1.mzstatic.com/us/r30/Purple3/v4/55/58/3a/55583acd-3c91-c04b-eeed-9686c508b5e3/icon128-2x.png" class="artwork" src="http://a1.mzstatic.com/us/r30/Purple3/v4/55/58/3a/55583acd-3c91-c04b-eeed-9686c508b5e3/icon128-2x.png"></a>
-          <a href="https://itunes.apple.com/us/app/hand-wrist-pro-iii/id511258062?mt=12"><img width="90" height="90" alt="Hand &amp; Wrist Pro III with Animations" src-swap-high-dpi="http://a5.mzstatic.com/us/r30/Purple3/v4/de/6e/0f/de6e0f4e-f592-9bd7-741f-b074cd58deb1/icon256-2x.png" src-load-auto-after-dom-load="" src-swap="http://a2.mzstatic.com/us/r30/Purple3/v4/de/6e/0f/de6e0f4e-f592-9bd7-741f-b074cd58deb1/icon128-2x.png" class="artwork" src="http://a2.mzstatic.com/us/r30/Purple3/v4/de/6e/0f/de6e0f4e-f592-9bd7-741f-b074cd58deb1/icon128-2x.png"></a>
-          <a href="https://itunes.apple.com/us/app/hip-pro-iii/id505463303?mt=12"><img width="90" height="90" alt="Hip Pro III with Animations" src-swap-high-dpi="http://a4.mzstatic.com/us/r30/Purple3/v4/49/8b/65/498b6568-d647-bfa3-0f6a-dab4c6e772a5/icon256-2x.png" src-load-auto-after-dom-load="" src-swap="http://a1.mzstatic.com/us/r30/Purple3/v4/49/8b/65/498b6568-d647-bfa3-0f6a-dab4c6e772a5/icon128-2x.png" class="artwork" src="http://a1.mzstatic.com/us/r30/Purple3/v4/49/8b/65/498b6568-d647-bfa3-0f6a-dab4c6e772a5/icon128-2x.png"></a>
-          <a href="https://itunes.apple.com/us/app/shoulder-pro-iii/id505461088?mt=12"><img width="90" height="90" alt="Shoulder Pro III with Animations" src-swap-high-dpi="http://a4.mzstatic.com/us/r30/Purple1/v4/65/1d/5b/651d5be9-50c8-c651-49ea-985e29c6f342/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a1.mzstatic.com/us/r30/Purple1/v4/65/1d/5b/651d5be9-50c8-c651-49ea-985e29c6f342/icon128-2x.png" class="artwork" src="http://a1.mzstatic.com/us/r30/Purple1/v4/65/1d/5b/651d5be9-50c8-c651-49ea-985e29c6f342/icon128-2x.png"></a>
-          <a href="https://itunes.apple.com/us/app/knee-pro-iii/id505462137?mt=12"><img width="90" height="90" alt="Knee Pro III with Animations" src-swap-high-dpi="http://a2.mzstatic.com/us/r30/Purple5/v4/f6/7b/2f/f67b2f14-2454-d3c0-249d-ad2847fbdb4a/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a5.mzstatic.com/us/r30/Purple5/v4/f6/7b/2f/f67b2f14-2454-d3c0-249d-ad2847fbdb4a/icon128-2x.png" class="artwork" src="http://a5.mzstatic.com/us/r30/Purple5/v4/f6/7b/2f/f67b2f14-2454-d3c0-249d-ad2847fbdb4a/icon128-2x.png"></a>
-          <a href="https://itunes.apple.com/us/app/brain-pro/id473646438?mt=12"><img width="90" height="90" alt="Brain Pro" src-swap-high-dpi="http://a5.mzstatic.com/us/r30/Purple/v4/de/bd/ed/debded6e-b735-f953-7ef0-2c71b1554bc5/icon512.png" src-load-auto-after-dom-load="" src-swap="http://a4.mzstatic.com/us/r30/Purple/v4/de/bd/ed/debded6e-b735-f953-7ef0-2c71b1554bc5/icon128-2x.png" class="artwork" src="http://a4.mzstatic.com/us/r30/Purple/v4/de/bd/ed/debded6e-b735-f953-7ef0-2c71b1554bc5/icon128-2x.png"></a>
-          <div class="clear"></div>
-          <p>Самостоятельно занимался портированием и доработкой iOS версии под OS X. Писал под мак когда это еще не было мэйнстримом (В 2011 году только открылся App Store для мака, основным источником информации была документация).</p>
-          
-          <p class="label">Проект iYoga Premium</p>
-          <a href="https://itunes.apple.com/us/app/iyoga-premium/id558795304?mt=8"><img width="90" height="90" alt="iYoga - Premium" src-swap-high-dpi="http://a3.mzstatic.com/us/r30/Purple1/v4/5a/dc/87/5adc87c3-4480-fa74-f9ab-645139430b7f/icon350x350.jpeg" src-load-auto-after-dom-load="" src-swap="http://a2.mzstatic.com/us/r30/Purple1/v4/5a/dc/87/5adc87c3-4480-fa74-f9ab-645139430b7f/icon175x175.png" class="artwork" src="http://a2.mzstatic.com/us/r30/Purple1/v4/5a/dc/87/5adc87c3-4480-fa74-f9ab-645139430b7f/icon175x175.png"></a>
-          <div class="clear"></div>
-          <p>Полностью моя техническая реализация iOS приложения. Основная сложность – проигрывание 4 видео синхронно с аудио дорожкой с рассинхронированными таймингами.</p>
-          
-          <p class="label">Проект Essential Anatomy (iOS/Mac/Android)</p>
-          <a href="https://itunes.apple.com/ie/app/essential-anatomy/id596684220?mt=8"><img width="90" height="90" alt="Essential Anatomy 5" src-swap-high-dpi="http://a2.mzstatic.com/eu/r30/Purple3/v4/1a/07/f3/1a07f3b9-dc50-f918-2aa9-82b5fca43e70/icon350x350.jpeg" src-load-auto-after-dom-load="" src-swap="http://a5.mzstatic.com/eu/r30/Purple3/v4/1a/07/f3/1a07f3b9-dc50-f918-2aa9-82b5fca43e70/icon175x175.png" class="artwork" src="http://a5.mzstatic.com/eu/r30/Purple3/v4/1a/07/f3/1a07f3b9-dc50-f918-2aa9-82b5fca43e70/icon175x175.png"></a>
-          <a href="https://play.google.com/store/apps/details?id=com.the3d4medical.EssentialAnatomy"><img width="90" height="90" class="cover-image" src="img/android-1.png" alt="Cover art" aria-hidden="true" itemprop="image"></a>
-          <div class="clear"></div>
-          <p>Работал в команде над iOS/OS X приложением. Для приложения использовали самописный OpenGL 3D движок. Занимался портированием портированием на Android, использовал <a href="http://www.apportable.com/">Apportable</a> , получилась очень странная комбинация приложения под Android написанного на Objective-C и Java.</p>
-          
-          <div class="clear"></div>
-          <p class="label">Проект iMuscle (Android)</p>
-          <a href="https://play.google.com/store/apps/details?id=com.the3d4medical.imuscle2.smartphones"><img class="cover-image" width="90" height="90" src="img/android-2.png" alt="Cover art" aria-hidden="true" itemprop="image"></a>
-          <div class="clear"></div>
-          <p>Портировал часть 3D движка с Objective-C на Java под Андроид.</p>
-
-          <div class="clear"></div>
-          <p class="label">Другое<p>
-          <p>Из интересного - реализация конвертации 3D модели из triangle в triangle strip на С++ для внутреннего использования. </p>
-        </div>
-        
-      </div>
-
-      <div class="section technical">
-        <div class="left">
-          <h3>Языки программирования</h3>
-          <p>которые использовал в реальных проектах</p>
-        </div>
-
-        <div class="right">
-          <div class="right_right">
-                <h4>Objective-C</h4>
-                <div class="progress-bar green">
-                    <span style="width: 90%"></span>
-                </div>
-                <h4>C/C++</h4>
-                <div class="progress-bar orange">
-                    <span style="width: 50%"></span>
-                </div>
-                <h4>Objective-J</h4>
-                <div class="progress-bar orange">
-                    <span style="width: 50%"></span>
-                </div>
-                <h4>Java</h4>
-                <div class="progress-bar orange">
-                    <span style="width: 40%"></span>
-                </div>
-                <h4>Javascript</h4>
-                <div class="progress-bar orange">
-                    <span style="width: 40%"></span>
-                </div>
-                <h4>HTML/CSS</h4>
-                <div class="progress-bar red">
-                    <span style="width: 30%"></span>
-                </div>
-                <h4>Flash</h4>
-                <div class="progress-bar red">
-                    <span style="width: 20%"></span>
-                </div>
-          </div>
-
-          <div class="right_left">
-            <p><span>Основные языки программирования, которые удалось пощупать в процессе работы.</span></p>
-
-            <p>Специфика работы в компании позволяла использовать те яп и инструменты, которые подходили для решения задачи в не зависимости от моей квалификации.</p>
-          </div>
-        </div>
-      </div>
-
-     <div class="section abilities">
-        <div class="left">
-          <h3>Проффесиальные навыки</h3>
-        </div>
-
-        <div class="right">
-            <p>Могу работать как в команде, так и самостоятельно. Бизнес ориентирован, т.е. пишу код качественно и продумано, когда это принесет свои плоды в долгосрочной перспективе, и делаю это быстро и не заморачиваясь, когда нужен быстрый результат. Люблю изучать технологии. Положительно отношусь к тестировщикам :) </p>
-        </div>
-      </div>
-      
-      <div class="section goals">
-        <div class="left">
-          <h3>Цели</h3>
-        </div>
-
-        <div class="right">
-            <p>Попробовав себя в различных сферах, хочу развивать себя в web технологиях. Есть желание не только писать код, но также учавствовать в развитии компании.</p>
-        </div>
-      </div>
-<!--
-      <div class="section contact">
-        <div class="left">
-          <h3>Contact</h3>
-
-          <p>Suspendisse a nulla vitae orci dictum facilisis.</p>
-        </div>
-
-        <div class="right">
-          <form class="form" action="#">
-            <p class="name"><input type="text" name="name" id="name" value="Name" /></p>
-
-            <p class="email"><input type="text" name="email" id="email" value="E-mail" /></p>
-
-            <p class="text">
-            <textarea name="text" rows="" cols="">Text
-</textarea></p>
-
-            <p class="submit"><input type="submit" value="Send" /></p>
-          </form>
-
-          <p class="contact_text">Sed cursus quam ac nibh convallis vitae faucibus quam
-          condimentum. Nulla elementum ultrices fermentum. Nulla non dolor odio, quis
-          dictum dui. Aenean venenatis convallis diam eget sagittis. Donec iaculis felis
-          a est ultrices dapibus.</p>
-
-          <div id="contact_icons">
-            <a href="#" class="social_contact">facebook</a> <a href="#" class=
-            "social_contact">twitter</a> <a href="#" class="social_contact">deviantArt</a> <a href="#"
-            class="social_contact">Google+</a>
-          </div>
-        </div>
-      </div>
--->
     </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
